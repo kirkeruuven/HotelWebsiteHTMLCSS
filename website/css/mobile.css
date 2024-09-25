@@ -48,3 +48,13 @@
 #about-info .info-right {
   margin-top: 30px;
 }
+/* contact-info */
+#contact-form h1,
+#contact-form p {
+  text-align: center;
+}
+#contact-info .box {
+  float: none;
+  width: 100%;
+  border-bottom: #444 dotted 1px;
+}
