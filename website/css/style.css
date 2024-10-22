@@ -342,7 +342,7 @@ footer {
 
   #about-info .info-left h1 {
     text-align: center; 
-    color: #fff;
+    color: #444;
   }
 
   #about-info .info-right {
@@ -358,10 +358,6 @@ footer {
     float: none; 
     width: 100%; 
     border-bottom: #444 dotted 1px; 
-  }
-
-  .voco-text {
-    color: #444 !important; /* Force the color to stay dark on small screens */
   }
 }
 
