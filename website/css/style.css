@@ -262,6 +262,11 @@ footer {
   margin-bottom: 10px;
 }
 
+/* Default styles for all screens */
+.voco-text {
+  color: #444; /* Ensure it's dark by default */
+}
+
 /* Media Queries */
 @media (min-width: 768px) and (max-width: 1023px) {
   /* Tablet styles */
@@ -337,7 +342,7 @@ footer {
 
   #about-info .info-left h1 {
     text-align: center; 
-    color: #444;
+    color: #fff;
   }
 
   #about-info .info-right {
@@ -353,6 +358,10 @@ footer {
     float: none; 
     width: 100%; 
     border-bottom: #444 dotted 1px; 
+  }
+
+  .voco-text {
+    color: #444 !important; /* Force the color to stay dark on small screens */
   }
 }
 
